@@ -15,11 +15,9 @@ body {
 /* === HEADER === */
 header {
   background-color: black;
-  text-align: center;
   padding: 30px;
 }
 header img {
-  width: 40%;
 }
 /* === MAIN === */
 /* incipit */
@@ -28,17 +26,17 @@ header img {
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding: 20px;
+  padding: 150px 300px;
 }
 #incipit h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 1;
   margin: 35px;
   margin-bottom: 25px;
 }
 
 #incipit p {
-  font-size: 1.3rem;
+  font-size: 2rem;
   margin: 0px 10px;
 }
 
@@ -48,32 +46,46 @@ header img {
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: white;
-  padding: 15px 35px;
-  margin: 30px 0 25px 0;
+  padding: 20px 40px;
+  margin: 50px 0 40px 0;
   cursor: pointer;
 }
 
 /* firstGroup */
 #firstGroup {
-  margin: 50px 0;
-}
-.firstGroup {
   text-align: center;
-  padding: 15px 30px;
-  font-size: 1.4rem;
+  padding: 80px;
+}
+.firstGroup-img,
+.paragraphs {
+  display: inline-block;
+  vertical-align: middle; /* allinea in alto i blocchi */
 }
 
-.firstGroup .headings {
-  margin-bottom: 10px;
-}
 .firstGroup-img {
-  padding: 0px 50px;
+  width: 30%;
+  margin: 100px 50px;
 }
+
 .firstGroup-img img {
-  width: 100%;
   border-radius: 50%;
+  width: 100%;
+}
+
+.paragraphs {
+  width: 30%;
+  text-align: left;
+  font-size: 1.3rem;
+  margin: 100px 50px;
+}
+
+.firstGroup {
+  margin: 30px 0;
+}
+.firstGroup h2 {
+  margin-bottom: 10px;
 }
 
 /* ceoCite */
@@ -103,15 +115,17 @@ header img {
 
 /* secondGroup */
 #secondGroup {
-  padding: 60px 30px;
+  /* padding: 60px 30px; */
+  padding: 50px;
 }
 
 #secondGroup div {
+  display: inline-block;
+  width: 32%;
   text-align: center;
   border: 1px solid #dee1e3;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  margin-bottom: 40px;
 }
 
 #secondGroup img {
