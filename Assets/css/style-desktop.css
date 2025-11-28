@@ -18,6 +18,7 @@ header {
   padding: 30px;
 }
 header img {
+  width: 15%;
 }
 /* === MAIN === */
 /* incipit */
@@ -61,7 +62,7 @@ header img {
 .firstGroup-img,
 .paragraphs {
   display: inline-block;
-  vertical-align: middle; /* allinea in alto i blocchi */
+  vertical-align: middle;
 }
 
 .firstGroup-img {
@@ -115,34 +116,40 @@ header img {
 
 /* secondGroup */
 #secondGroup {
-  /* padding: 60px 30px; */
-  padding: 50px;
+  text-align: center;
+  padding: 80px 50px;
 }
 
-#secondGroup div {
+.card {
   display: inline-block;
-  width: 32%;
-  text-align: center;
+  vertical-align: middle;
+  width: 30%;
+  height: 420px;
+  margin: 0 10px;
   border: 1px solid #dee1e3;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  padding: 0 0 15px;
 }
 
-#secondGroup img {
+.imgContainer {
   width: 100%;
+  height: 66.6%;
 }
 
-#secondGroup h2 {
-  font-size: 1.1rem;
-  margin-top: 15px;
-  margin-bottom: 5px;
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
-#secondGroup p {
-  padding: 0 15px 15px 15px;
-  font-size: 1.2rem;
-  margin-bottom: 30px;
+.card h2 {
+  margin: 20px 0;
 }
+
 /* === FOOTER === */
 footer {
   background-color: #25a2c3;
@@ -150,12 +157,16 @@ footer {
   padding: 20px;
 }
 
+.footContainer {
+  width: fit-content;
+  margin: auto;
+}
 footer h2 {
   color: white;
-  font-size: 2.2rem;
+  font-size: 3.5rem;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
-  margin: 15px;
+  margin: 15px 0;
 }
 
 footer ul,
@@ -165,6 +176,8 @@ footer div {
 }
 
 footer ul {
+  text-align: left;
+  margin: auto;
   margin-bottom: 30px;
 }
 
@@ -177,8 +190,7 @@ footer ul li {
   color: white;
 }
 
-footer div {
-  display: inline-block;
+.copyright {
   margin: auto;
   border-top: 1px solid #c8e7f0;
   padding: 30px;
