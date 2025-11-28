@@ -120,12 +120,13 @@ header img {
 }
 
 #secondGroup h2 {
-  font-size: 1.2rem;
-  margin: 15px;
+  font-size: 1.1rem;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 #secondGroup p {
-  padding: 15px;
+  padding: 0 15px 15px 15px;
   font-size: 1.2rem;
   margin-bottom: 30px;
 }
@@ -133,17 +134,40 @@ header img {
 footer {
   background-color: #25a2c3;
   text-align: center;
+  padding: 20px;
 }
+
 footer h2 {
   color: white;
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin: 15px;
 }
+
 footer ul,
 footer a,
 footer div {
   color: #c8e7f0;
 }
+
+footer ul {
+  margin-bottom: 30px;
+}
+
+footer ul li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.fas {
+  color: white;
+}
+
 footer div {
   display: inline-block;
   margin: auto;
   border-top: 1px solid #c8e7f0;
+  padding: 30px;
+  margin-bottom: 30px;
 }
